@@ -1,0 +1,6 @@
+version: '3'
+services:
+  db:
+    image: 'postgres:12.7-alpine'
+    tty: true
+    env_file: .env
